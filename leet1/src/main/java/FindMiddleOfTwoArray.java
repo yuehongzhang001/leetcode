@@ -15,7 +15,8 @@ public class FindMiddleOfTwoArray {
         int min=nums1[0]<nums2[0]?nums1[0]:nums2[0];
         int max=nums1[m]>nums2[n]?nums1[m]:nums2[n];
         for(int i=1;i<m+n;i++){
-            min=nums1[i]
+            min=nums1[i];
         }
+        return 0;
     }
 }
