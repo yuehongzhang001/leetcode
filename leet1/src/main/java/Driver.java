@@ -12,10 +12,14 @@
  */
 public class Driver {
     public static void main(String[] args){
-        String s="[]{}}";
-        int[] nums={0,1,2,2,3,0,4,2};
-        System.out.println(No28.strStr1("abccd", ""));
-
+        String s="   ";
+        int[] nums1={1,2,3,0,0,0};
+        int[] nums2={2,5,6};
+        int[] a=null;
+        TreeNode t1 = new TreeNode(1);
+        t1.left=new TreeNode(2);
+        t1.right=new TreeNode(3);
+        System.out.print(No101.isSymmetric(t1));
     }
     
     
