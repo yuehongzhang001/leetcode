@@ -14,11 +14,12 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 public class Driver {
     public static void main(String[] args){
-        TreeNode t = new TreeNode(3);
-        t.left = new TreeNode(1);
-        t.right = new TreeNode(4);
-        t.left.right = new TreeNode(2);
-        System.out.println(No235.lowestCommonAncestor1(t, t.left.right, t.right).val);
+        int[] nums1 = {4,1,2};
+        int[] nums2 = {1,3,4,2};
+        int[] nums = No496.nextGreaterElement(nums1, nums2);
+        for(int i:nums){
+            System.out.print(i+",");
+        }
     }
     
     

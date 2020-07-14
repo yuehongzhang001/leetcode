@@ -8,8 +8,12 @@
  *
  * @author yuehongzhang
  */
-public class No292 {
-     public boolean canWinNim(int n) {
-         return n%4!=0;
+public class No344 {
+    public void reverseString(char[] s) {
+        for(int i=0,j=s.length-1;i<j;i++,j--){
+            char temp = s[i];
+            s[i]=s[j];
+            s[j]=temp;
+        }
     }
 }
