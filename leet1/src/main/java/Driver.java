@@ -14,13 +14,9 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 public class Driver {
     public static void main(String[] args){
-        int[] nums1 = {4,1,2};
-        int[] nums2 = {1,3,4,2};
-        int[] nums = No496.nextGreaterElement(nums1, nums2);
-        for(int i:nums){
-            System.out.print(i+",");
-        }
+//        No1287 obj = new No1287();
+//        System.out.print(obj.findSpecialInteger1(new int[]{1,1,2,2,3,3,3,3}));
+          String[] ss = "123234".split("#");
+          System.out.println(ss.length);
     }
-    
-    
 }
