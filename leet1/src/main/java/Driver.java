@@ -11,12 +11,14 @@
  * @author yuehongzhang
  */
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 public class Driver {
     public static void main(String[] args){
 //        No1287 obj = new No1287();
 //        System.out.print(obj.findSpecialInteger1(new int[]{1,1,2,2,3,3,3,3}));
-          String[] ss = "123234".split("#");
-          System.out.println(ss.length);
+          ArrayList<Integer> list =new ArrayList(3);
+          int i=0;
+              System.out.println(list.size());
     }
 }
